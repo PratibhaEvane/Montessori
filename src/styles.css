@@ -1,3 +1,14 @@
-.container {
+body {
   height: 1000px;
+}
+.footer {
+  overflow: hidden;
+  position: sticky;
+  top: 100%;
+  background-color: black;
+  padding: 20px 10px;
+  height: 150px;
+}
+.blank {
+  height: 50px;
 }
