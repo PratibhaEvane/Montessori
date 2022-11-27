@@ -1,3 +1,42 @@
-.home-container {
-  height: 1000px;
+.bg-image {
+  background-image: url("src\assets\homepagebgimage.avif");
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.slogan {
+  height: 150px;
+  align-self: top;
+}
+.slogan h4 {
+  text-align: center;
+  padding-top: 40px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  height: 200px;
+  flex-direction: row;
+}
+.enquiry {
+  width: 40%;
+  background-color: maroon;
+  color: white;
+}
+.enquiry h4 {
+  text-align: center;
+  padding-top: 10%;
+}
+.enquiry-form {
+  background-color: red;
+  width: 60%;
 }
