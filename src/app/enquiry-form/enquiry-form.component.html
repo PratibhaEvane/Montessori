@@ -1,0 +1,34 @@
+<!-- enquiry form container -->
+<div class="flex-container">
+    <div class="enquiry">
+        <h4>Drop your queries here <br />_____</h4>
+    </div>
+    <div class="enquiry-form">
+        <div class="form-flex-container">
+            <form #enquiryForm="ngForm">
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" name="username"
+                        ngModel aria-describedby="addon-wrapping" />
+                </div>
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control" placeholder="email" aria-label="email" name="email" ngModel
+                        aria-describedby="addon-wrapping" />
+                </div>
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control" placeholder="phone number" aria-label="email" name="phone"
+                        ngModel aria-describedby="addon-wrapping" />
+                </div>
+
+                <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea" placeholder="enter message here"
+                        name="msg" ngModel></textarea>
+                </div>
+                <div class="input-group flex-nowrap">
+                    <input type="button" class="form-control" value="Send" aria-label="email"
+                        (click)="enquiryData(enquiryForm.value)" aria-describedby="addon-wrapping"
+                        style="font-weight: bold" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
