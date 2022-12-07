@@ -20,36 +20,3 @@
   text-align: center;
   padding-top: 40px;
 }
-.flex-container {
-  display: flex;
-  justify-content: center;
-  border: 1px black solid;
-  height: 300px;
-  flex-direction: row;
-}
-.enquiry {
-  width: 40%;
-  /* background-color: maroon; */
-  color: black;
-}
-.enquiry h4 {
-  text-align: center;
-  padding-top: 15%;
-}
-.enquiry-form {
-  /* background-color: red; */
-  width: 60%;
-}
-.form-flex-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 4%;
-}
-.input-group {
-  width: 50%;
-  margin-left: 20%;
-  margin-top: 1%;
-  border: 1px solid;
-  box-shadow: 2px 2px #888888;
-}
