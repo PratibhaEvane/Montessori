@@ -1,0 +1,62 @@
+.bg-image {
+  background-image: url("src\assets\aboutusBG.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.contactUs {
+  background-color: black;
+  height: 350px;
+  width: 1200px;
+  position: absolute;
+  top: 42%;
+  left: 11.5%;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+.aboutUs p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 19px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.img {
+  width: 40%;
+  /* background-color: maroon; */
+  color: black;
+  margin: 10px;
+}
+.img h4 {
+  text-align: center;
+  padding-top: 15%;
+}
+.ourMission {
+  /* background-color: red; */
+  width: 60%;
+  margin: 10px;
+}
+.ourMission-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.ourMissionHeading {
+  font-size: 60px;
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 10px;
+}
+.ourMissionDiscription {
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+}
