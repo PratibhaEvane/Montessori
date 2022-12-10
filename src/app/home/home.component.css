@@ -1,5 +1,5 @@
 .bg-image {
-  background-image: url("src\assets\homepageBGimg.avif");
+  /* background-image: url("src\assets\homepageBGimg.avif"); */
   height: 700px;
   background-position: center;
   background-size: cover;
@@ -9,7 +9,8 @@
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
+  font-weight: bold;
 }
 
 .slogan {
