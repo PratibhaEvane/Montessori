@@ -6,6 +6,7 @@
 }
 .aboutUs {
   background-color: black;
+  opacity: 0.85;
   height: 350px;
   width: 1200px;
   position: absolute;

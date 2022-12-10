@@ -6,16 +6,20 @@
 }
 .contactUs {
   background-color: black;
-  height: 200px;
-  width: 300px;
-  color: white;
-  padding-top: 15px;
+  opacity: 0.85;
+  height: 500px;
+  width: 1200px;
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 42%;
+  left: 11.5%;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
 }
+
 .contactUs h2 {
   text-align: center;
+  margin-top: 40px;
 }
 .flex-container {
   display: flex;
